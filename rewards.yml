@@ -1,0 +1,24 @@
+RecompenseNormal:
+    Iteme:
+    Comenzi:
+        '0':
+            Comenzi:
+                - 'give %player diamond 16'
+                - 'give %player gold 16'
+            Sansa: 50
+        '1':
+            Comenzi:
+                - 'give %player diamond 16'
+            Sansa: 50
+RecompenseBoss:
+    Iteme:
+    Comenzi:
+        '0':
+            Comenzi:
+                - 'give %player diamond 64'
+                - 'give %player gold 16'
+            Sansa: 10
+        '1':
+            Comenzi:
+                - 'give %player diamond 1'
+            Sansa: 50

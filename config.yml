@@ -1,0 +1,119 @@
+Messaje:
+    hoardaIncepeIn: '&7O armata de monstri mitici va ataca spawnul in &c&l%timpPrimAtac &7secunde!'
+    waveNou: '&7Un nou val de monstri vor ataca spawnul in &c&l%timpUrmWave &7secunde!'
+    bossCurand: '&7&lBossul va aparea in 60 de secunde!'
+    mesajBossMoarte: '&7&lBossul a fost infrant,toti participanti vor primi recompense!'
+HordeConfig:
+    nrZombieToSpawn: 10
+    nrSkeletonToSpawn: 10
+    nrSpiderToSpawn: 10
+    nrRavagerToSpawn: 2
+    nrIllusionerToSpawn: 2
+    timpSpawnWave1: 15
+    timpSpawnWave2: 60
+    spawnLoc:
+SkeletonBossConfig:
+    health: 200
+    head:
+        Type: DIAMOND_HELMET
+        Enchantment:
+            - protection 2
+    chest:
+        Type: DIAMOND_CHESTPLATE
+        Enchantment:
+            - protection 2
+    legs:
+        Type: DIAMOND_LEGGINGS
+        Enchantment:
+            - protection 2
+    foot:
+        Type: DIAMOND_BOOTS
+        Enchantment:
+            - protection 2
+    mainHand:
+        Type: BOW
+        Enchantment:
+            - power 5
+            - flame 1
+ZombieBossConfig:
+    health: 200
+    head:
+        Type: DIAMOND_HELMET
+        Enchantment:
+            - protection 2
+    chest:
+        Type: DIAMOND_CHESTPLATE
+        Enchantment:
+            - protection 2
+    legs:
+        Type: DIAMOND_LEGGINGS
+        Enchantment:
+            - protection 2
+    foot:
+        Type: DIAMOND_BOOTS
+        Enchantment:
+            - protection 2
+    mainHand:
+        Type: DIAMOND_SWORD
+        Enchantment:
+            - sharpness 2
+WitherBossConfig:
+    mesajMinioniInViata: '&c&lNu poti face damage witherului cat timp are minioni in viata!'
+    mesajAnihilare: '&c&lWitherul va folosi &4anihilare &c fugi de langa el!'
+    mesajMoarte: '&cWitherul a fost batut,toti participanti vor primi recompense!'
+    health: 400
+CustomEnityConfig:
+    customzombiehp: 50
+    customskeletonhp: 50
+    customspiderhp: 50
+    customravagerhp: 125
+    customillusionerhp: 50
+IllusionerEquipment:
+    mainHand:
+        Type: BOW
+        Enchantment:
+        - power 3
+ZombieEquipment:
+    head:
+        Type: IRON_HELMET
+        Enchantment:
+            - protection 1
+    chest:
+        Type: IRON_CHESTPLATE
+        Enchantment:
+            - protection 1
+    legs:
+        Type: IRON_LEGGINGS
+        Enchantment:
+            - protection 1
+    foot:
+        Type: IRON_BOOTS
+        Enchantment:
+            - protection 1
+    mainHand:
+        Type: IRON_SWORD
+        Enchantment:
+            - sharpness 2
+    offHand:
+        Type: SHIELD
+SkeletonEquipment:
+    head:
+        Type: LEATHER_HELMET
+        Enchantment:
+            - protection 2
+    chest:
+        Type: LEATHER_CHESTPLATE
+        Enchantment:
+            - protection 2
+    legs:
+        Type: LEATHER_LEGGINGS
+        Enchantment:
+            - protection 2
+    foot:
+        Type: LEATHER_BOOTS
+        Enchantment:
+            - protection 2
+    mainHand:
+        Type: BOW
+        Enchantment:
+            - power 3
